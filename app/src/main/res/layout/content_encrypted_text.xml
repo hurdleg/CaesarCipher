@@ -40,8 +40,9 @@
     </ScrollView>
 
     <Button
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:text="@string/clear"
         android:id="@+id/bClearEncrypted"
         android:layout_alignParentBottom="true" />
