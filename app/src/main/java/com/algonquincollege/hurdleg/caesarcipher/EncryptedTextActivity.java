@@ -111,8 +111,7 @@ public class EncryptedTextActivity extends AppCompatActivity {
                 Log.i( LOG_TAG, "Plain Message (rotation: " + rotation + "): " + plainMessage );
             }
 
-            mEncryptedText.setText( 0 );
-           // mEncryptedText.setText( CaesarCipher.encrypt(plainMessage, rotation) );
+            mEncryptedText.setText( CaesarCipher.encrypt(plainMessage, rotation) );
         }
 
         // init
